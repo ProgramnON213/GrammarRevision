@@ -1,0 +1,162 @@
+[
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Time",
+    "question": "My birthday is _____ May.",
+    "options": ["in", "on", "at", "since"],
+    "correctAnswer": "in",
+    "explanation": "We use 'in' for months of the year."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Time",
+    "question": "We have English class _____ Monday.",
+    "options": ["in", "on", "at", "during"],
+    "correctAnswer": "on",
+    "explanation": "We always use 'on' for days of the week."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Time",
+    "question": "The movie starts _____ 7:00 PM.",
+    "options": ["in", "on", "at", "for"],
+    "correctAnswer": "at",
+    "explanation": "We use 'at' for specific clock times."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Time",
+    "question": "I have been studying _____ two hours.",
+    "options": ["since", "for", "during", "in"],
+    "correctAnswer": "for",
+    "explanation": "We use 'for' to show a duration or length of time."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Time",
+    "question": "She has lived here _____ 2018.",
+    "options": ["since", "for", "in", "on"],
+    "correctAnswer": "since",
+    "explanation": "We use 'since' to show the specific starting point of an action."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Time",
+    "question": "We always go skiing _____ the winter.",
+    "options": ["in", "on", "at", "by"],
+    "correctAnswer": "in",
+    "explanation": "We use 'in' for seasons."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Time",
+    "question": "Let's meet _____ noon for lunch.",
+    "options": ["in", "on", "at", "from"],
+    "correctAnswer": "at",
+    "explanation": "We use 'at' for specific points in the day like noon or midnight."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Time",
+    "question": "I fell asleep _____ the movie.",
+    "options": ["for", "since", "during", "at"],
+    "correctAnswer": "during",
+    "explanation": "We use 'during' to say that something happened within a specific period or event."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Time",
+    "question": "The store is open _____ 9 AM to 5 PM.",
+    "options": ["in", "on", "from", "at"],
+    "correctAnswer": "from",
+    "explanation": "We use 'from' along with 'to' to show the start and end of a time period."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Time",
+    "question": "Please finish your homework _____ Friday.",
+    "options": ["in", "at", "for", "by"],
+    "correctAnswer": "by",
+    "explanation": "We use 'by' to mean 'no later than' a certain time."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Time",
+    "question": "We open our presents _____ Christmas Day.",
+    "options": ["in", "on", "at", "during"],
+    "correctAnswer": "on",
+    "explanation": "We use 'on' for specific calendar dates and holidays with the word 'Day'."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Time",
+    "question": "I will wait for you _____ 3:00 PM, but then I have to leave.",
+    "options": ["until", "for", "since", "in"],
+    "correctAnswer": "until",
+    "explanation": "We use 'until' to show how long an action continues before it stops."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Time",
+    "question": "My younger brother was born _____ 2010.",
+    "options": ["in", "on", "at", "since"],
+    "correctAnswer": "in",
+    "explanation": "We use 'in' for years."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Time",
+    "question": "I don't like driving _____ night because it's too dark.",
+    "options": ["in", "on", "at", "during"],
+    "correctAnswer": "at",
+    "explanation": "We use 'at' in the phrase 'at night'."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Time",
+    "question": "She usually reads a book _____ the evening.",
+    "options": ["in", "on", "at", "by"],
+    "correctAnswer": "in",
+    "explanation": "We use 'in' for parts of the day like 'in the morning', 'in the afternoon', and 'in the evening'."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Time",
+    "question": "Hurry up! The train leaves _____ ten minutes.",
+    "options": ["in", "on", "at", "for"],
+    "correctAnswer": "in",
+    "explanation": "We use 'in' to show how much time will pass before something happens in the future."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Time",
+    "question": "I will see you _____ Tuesday morning.",
+    "options": ["in", "on", "at", "from"],
+    "correctAnswer": "on",
+    "explanation": "Even though it has 'morning', we use 'on' because a specific day (Tuesday) is mentioned."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Time",
+    "question": "They have been best friends _____ they were in kindergarten.",
+    "options": ["for", "since", "during", "in"],
+    "correctAnswer": "since",
+    "explanation": "We use 'since' because it shows the specific starting point (kindergarten) of their friendship."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Time",
+    "question": "The concert lasted _____ three hours.",
+    "options": ["since", "during", "for", "until"],
+    "correctAnswer": "for",
+    "explanation": "We use 'for' to talk about a total amount or length of time."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Time",
+    "question": "We stayed at the beach _____ sunset.",
+    "options": ["in", "on", "until", "for"],
+    "correctAnswer": "until",
+    "explanation": "We use 'until' to mean 'up to the point in time'."
+  }
+]

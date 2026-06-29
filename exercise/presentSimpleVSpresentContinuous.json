@@ -1,0 +1,162 @@
+[
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple vs. Present Continuous",
+    "question": "Shh! The baby _____ (sleep) in the next room.",
+    "options": ["sleeps", "is sleeping", "sleeping", "sleep"],
+    "correctAnswer": "is sleeping",
+    "explanation": "We use 'is sleeping' because the word 'Shh!' tells us the action is happening right now."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple vs. Present Continuous",
+    "question": "My brother usually _____ (play) video games after school.",
+    "options": ["is playing", "play", "plays", "playing"],
+    "correctAnswer": "plays",
+    "explanation": "We use 'plays' because 'usually' indicates a routine or habit."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple vs. Present Continuous",
+    "question": "Look outside! It _____ (snow) heavily.",
+    "options": ["snows", "is snowing", "snowing", "snow"],
+    "correctAnswer": "is snowing",
+    "explanation": "We use 'is snowing' because 'Look outside!' means the action is happening right at this moment."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple vs. Present Continuous",
+    "question": "Water _____ (boil) at 100 degrees Celsius.",
+    "options": ["is boiling", "boils", "boil", "boiling"],
+    "correctAnswer": "boils",
+    "explanation": "We use 'boils' because this is a scientific fact that is always true."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple vs. Present Continuous",
+    "question": "I can't talk right now, I _____ (eat) dinner with my family.",
+    "options": ["am eating", "eat", "eats", "eating"],
+    "correctAnswer": "am eating",
+    "explanation": "We use 'am eating' because the phrase 'right now' shows the action is currently in progress."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple vs. Present Continuous",
+    "question": "She _____ (walk) to school every morning.",
+    "options": ["is walking", "walks", "walk", "walking"],
+    "correctAnswer": "walks",
+    "explanation": "We use 'walks' because 'every morning' is a clue that this is a repeated routine."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple vs. Present Continuous",
+    "question": "Why _____ you _____ (cry)? Are you okay?",
+    "options": ["do / cry", "are / crying", "is / crying", "does / cry"],
+    "correctAnswer": "are / crying",
+    "explanation": "We use 'are crying' because the person is asking about something happening right now."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple vs. Present Continuous",
+    "question": "The school bus _____ (leave) at exactly 7:30 AM every day.",
+    "options": ["is leaving", "leave", "leaves", "leaving"],
+    "correctAnswer": "leaves",
+    "explanation": "We use 'leaves' because schedules and timetables use the Present Simple."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple vs. Present Continuous",
+    "question": "I usually drink milk, but today I _____ (drink) orange juice.",
+    "options": ["drink", "am drinking", "drinks", "drinking"],
+    "correctAnswer": "am drinking",
+    "explanation": "We use 'am drinking' because 'today' indicates a temporary action that is different from the usual routine."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple vs. Present Continuous",
+    "question": "Cats _____ (hate) getting wet.",
+    "options": ["are hating", "hates", "hate", "hating"],
+    "correctAnswer": "hate",
+    "explanation": "We use 'hate' because it is a general fact. Also, 'hate' is a state verb and is rarely used in the continuous form."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple vs. Present Continuous",
+    "question": "We _____ (study) for our math test at the moment.",
+    "options": ["study", "are studying", "studies", "is studying"],
+    "correctAnswer": "are studying",
+    "explanation": "We use 'are studying' because 'at the moment' is a trigger phrase for an action happening right now."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple vs. Present Continuous",
+    "question": "My dad never _____ (forget) my mom's birthday.",
+    "options": ["forgets", "is forgetting", "forget", "forgetting"],
+    "correctAnswer": "forgets",
+    "explanation": "We use 'forgets' because the word 'never' points to a habit or permanent situation."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple vs. Present Continuous",
+    "question": "Can you turn down the music? I _____ (try) to read.",
+    "options": ["try", "tries", "am trying", "trying"],
+    "correctAnswer": "am trying",
+    "explanation": "We use 'am trying' because the person is currently in the middle of trying to read."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple vs. Present Continuous",
+    "question": "He _____ (not / like) pizza, which is very strange!",
+    "options": ["isn't liking", "doesn't like", "don't like", "not like"],
+    "correctAnswer": "doesn't like",
+    "explanation": "We use 'doesn't like' because 'like' is a state verb describing a general preference, not an action happening right now."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple vs. Present Continuous",
+    "question": "They _____ (build) a new shopping mall down the street these days.",
+    "options": ["build", "builds", "are building", "is building"],
+    "correctAnswer": "are building",
+    "explanation": "We use 'are building' because 'these days' shows it is an ongoing, temporary project, even if they aren't swinging hammers this exact second."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple vs. Present Continuous",
+    "question": "How often _____ you _____ (go) to the dentist?",
+    "options": ["are / going", "do / go", "does / go", "is / going"],
+    "correctAnswer": "do / go",
+    "explanation": "We use 'do go' because 'How often' asks about a routine or frequency."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple vs. Present Continuous",
+    "question": "Look at that dog! It _____ (chase) its own tail!",
+    "options": ["chases", "is chasing", "chase", "chasing"],
+    "correctAnswer": "is chasing",
+    "explanation": "We use 'is chasing' because the word 'Look!' directs attention to an action happening right now."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple vs. Present Continuous",
+    "question": "The moon _____ (go) around the Earth.",
+    "options": ["is going", "goes", "go", "going"],
+    "correctAnswer": "goes",
+    "explanation": "We use 'goes' because this is a permanent scientific fact."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple vs. Present Continuous",
+    "question": "Hurry up! Everyone _____ (wait) for you.",
+    "options": ["waits", "wait", "are waiting", "is waiting"],
+    "correctAnswer": "is waiting",
+    "explanation": "We use 'is waiting' (Everyone takes a singular verb) because the waiting is happening right now."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple vs. Present Continuous",
+    "question": "I _____ (understand) exactly what you mean.",
+    "options": ["am understanding", "understand", "understands", "understanding"],
+    "correctAnswer": "understand",
+    "explanation": "We use 'understand' because it is a state of mind, which is almost always used in the Present Simple, even if you are understanding it right now."
+  }
+]

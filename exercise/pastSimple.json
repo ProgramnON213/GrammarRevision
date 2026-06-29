@@ -1,0 +1,162 @@
+[
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "We _____ (play) soccer at the park yesterday.",
+    "options": ["play", "played", "playing", "plays"],
+    "correctAnswer": "played",
+    "explanation": "For regular verbs in the Past Simple, we add '-ed' to the end of the base verb."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "She _____ (go) to the mall with her friends last weekend.",
+    "options": ["goes", "goed", "went", "gone"],
+    "correctAnswer": "went",
+    "explanation": "'Go' is an irregular verb, so its past tense form changes completely to 'went'."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "I _____ (not/eat) breakfast this morning because I was late.",
+    "options": ["didn't eat", "don't eat", "didn't ate", "wasn't eat"],
+    "correctAnswer": "didn't eat",
+    "explanation": "To make a negative sentence in the Past Simple, we use 'did not' (or 'didn't') followed by the base form of the verb."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "_____ you _____ (finish) your math homework last night?",
+    "options": ["Do / finish", "Did / finished", "Are / finishing", "Did / finish"],
+    "correctAnswer": "Did / finish",
+    "explanation": "To ask a question in the Past Simple, start with 'Did' and keep the main verb in its base form."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "The movie _____ (be) really funny!",
+    "options": ["was", "were", "is", "be"],
+    "correctAnswer": "was",
+    "explanation": "'The movie' is a singular subject (it), so the past tense of the verb 'to be' is 'was'."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "My parents _____ (be) very happy with my report card.",
+    "options": ["was", "were", "are", "be"],
+    "correctAnswer": "were",
+    "explanation": "'My parents' is a plural subject (they), so the past tense of the verb 'to be' is 'were'."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "He _____ (see) a famous actor at the restaurant.",
+    "options": ["sees", "seed", "saw", "seen"],
+    "correctAnswer": "saw",
+    "explanation": "'See' is an irregular verb. Its past tense form is 'saw'."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "They _____ (study) for three hours for the history test.",
+    "options": ["studys", "studied", "studyed", "studing"],
+    "correctAnswer": "studied",
+    "explanation": "For regular verbs ending in a consonant + 'y', we change the 'y' to 'i' and add '-ed'."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "The dog _____ (not/bark) at the mailman today.",
+    "options": ["didn't barked", "doesn't bark", "didn't bark", "wasn't bark"],
+    "correctAnswer": "didn't bark",
+    "explanation": "For negative past actions, use 'didn't' and the base verb ('bark'), even for singular subjects."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "What time _____ she _____ (leave) the party?",
+    "options": ["did / left", "does / leave", "did / leave", "was / leave"],
+    "correctAnswer": "did / leave",
+    "explanation": "In Past Simple questions, the helper verb 'did' takes the past tense, so the main verb 'leave' stays in its base form."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "We _____ (buy) a new car last month.",
+    "options": ["buyed", "bought", "bring", "buying"],
+    "correctAnswer": "bought",
+    "explanation": "'Buy' is an irregular verb, and its past tense form is 'bought'."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "I _____ (stop) at the store to get some milk.",
+    "options": ["stoped", "stopped", "stops", "stopping"],
+    "correctAnswer": "stopped",
+    "explanation": "For short, one-syllable verbs ending in a single vowel and a consonant (like s-t-o-p), double the final consonant before adding '-ed'."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "_____ they at the library yesterday?",
+    "options": ["Was", "Were", "Did", "Are"],
+    "correctAnswer": "Were",
+    "explanation": "When asking a question with the verb 'to be' for a plural subject ('they'), we use 'Were'."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "She _____ (have) a great time at the amusement park.",
+    "options": ["haved", "has", "had", "having"],
+    "correctAnswer": "had",
+    "explanation": "The past tense of the irregular verb 'have' (or 'has') is 'had'."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "My brother _____ (break) his phone screen.",
+    "options": ["breaked", "broke", "broken", "breaks"],
+    "correctAnswer": "broke",
+    "explanation": "'Break' is an irregular verb, and its past tense form is 'broke'."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "We _____ (not/watch) TV last night; we read books instead.",
+    "options": ["didn't watched", "weren't watch", "don't watch", "didn't watch"],
+    "correctAnswer": "didn't watch",
+    "explanation": "To show something didn't happen in the past, use 'didn't' plus the base verb 'watch'."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "The baker _____ (bake) a delicious chocolate cake.",
+    "options": ["bakes", "bakeed", "baked", "baking"],
+    "correctAnswer": "baked",
+    "explanation": "For regular verbs that already end in 'e' (like bake), we just add a 'd' to make it past tense."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "_____ it rain while you were walking home?",
+    "options": ["Was", "Does", "Did", "Were"],
+    "correctAnswer": "Did",
+    "explanation": "To ask a yes/no question about an action ('rain') in the past, we start the sentence with 'Did'."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "I _____ (drink) all my water during P.E. class.",
+    "options": ["drinked", "drunk", "drank", "drinks"],
+    "correctAnswer": "drank",
+    "explanation": "'Drink' is an irregular verb, and its past tense form is 'drank'."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "The teacher _____ (give) us a lot of homework on Friday.",
+    "options": ["gived", "gave", "given", "gives"],
+    "correctAnswer": "gave",
+    "explanation": "'Give' is an irregular verb. The past tense form is 'gave'."
+  }
+]

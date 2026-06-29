@@ -1,0 +1,162 @@
+[
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple vs. Present Perfect",
+    "question": "I _____ (see) that new superhero movie yesterday.",
+    "options": ["have seen", "saw", "see", "was seeing"],
+    "correctAnswer": "saw",
+    "explanation": "We use 'saw' because the word 'yesterday' gives us a specific, finished time in the past."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple vs. Present Perfect",
+    "question": "She _____ (already / finish) her math homework.",
+    "options": ["already finished", "has already finished", "already finish", "is already finishing"],
+    "correctAnswer": "has already finished",
+    "explanation": "We use 'has already finished' because 'already' shows an action completed at an unspecified time before now."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple vs. Present Perfect",
+    "question": "_____ you ever _____ (eat) sushi?",
+    "options": ["Did / eat", "Do / eat", "Have / eaten", "Has / eaten"],
+    "correctAnswer": "Have / eaten",
+    "explanation": "We use 'Have eaten' because the word 'ever' asks about your life experience up to this moment."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple vs. Present Perfect",
+    "question": "My family _____ (go) to the beach last weekend.",
+    "options": ["have gone", "has gone", "went", "goes"],
+    "correctAnswer": "went",
+    "explanation": "We use 'went' because 'last weekend' is a specific time period that is completely finished."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple vs. Present Perfect",
+    "question": "He _____ (live) in this town since he was a baby.",
+    "options": ["lived", "has lived", "lives", "is living"],
+    "correctAnswer": "has lived",
+    "explanation": "We use 'has lived' because the word 'since' tells us the action started in the past and continues to the present."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple vs. Present Perfect",
+    "question": "They _____ (buy) a new car in 2020.",
+    "options": ["bought", "have bought", "buyed", "are buying"],
+    "correctAnswer": "bought",
+    "explanation": "We use 'bought' because 'in 2020' is a specific, finished point in the past."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple vs. Present Perfect",
+    "question": "I _____ (not / see) my house keys. Have you?",
+    "options": ["didn't see", "don't see", "haven't seen", "wasn't seeing"],
+    "correctAnswer": "haven't seen",
+    "explanation": "We use 'haven't seen' because it is a past action that has a direct result right now (the keys are still missing)."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple vs. Present Perfect",
+    "question": "William Shakespeare _____ (write) Romeo and Juliet.",
+    "options": ["has written", "writes", "wrote", "was writing"],
+    "correctAnswer": "wrote",
+    "explanation": "We use 'wrote' because Shakespeare lived in the past. His life is a finished time period, so he cannot write any more books."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple vs. Present Perfect",
+    "question": "My favorite author _____ (write) five books so far.",
+    "options": ["wrote", "has written", "writes", "writing"],
+    "correctAnswer": "has written",
+    "explanation": "We use 'has written' because the author is still alive and the phrase 'so far' means she might write more in the future."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple vs. Present Perfect",
+    "question": "_____ you _____ (finish) your science project yet?",
+    "options": ["Did / finish", "Have / finished", "Are / finishing", "Do / finish"],
+    "correctAnswer": "Have / finished",
+    "explanation": "We use 'Have finished' because the word 'yet' asks if an expected action has happened before this present moment."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple vs. Present Perfect",
+    "question": "I _____ (lose) my phone at the park last night.",
+    "options": ["lost", "have lost", "losings", "losed"],
+    "correctAnswer": "lost",
+    "explanation": "We use 'lost' because 'last night' tells us exactly when it happened."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple vs. Present Perfect",
+    "question": "Oh no! I _____ (cut) my finger! It's bleeding.",
+    "options": ["cut", "have cut", "cutted", "was cutting"],
+    "correctAnswer": "have cut",
+    "explanation": "We use 'have cut' because it is a recent past action with a very obvious result in the present (it's bleeding now)."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple vs. Present Perfect",
+    "question": "She _____ (visit) Paris three times in her life.",
+    "options": ["visited", "has visited", "visit", "is visiting"],
+    "correctAnswer": "has visited",
+    "explanation": "We use 'has visited' to talk about life experiences up to the present moment, without giving a specific date."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple vs. Present Perfect",
+    "question": "When _____ you _____ (arrive) at the party?",
+    "options": ["have / arrived", "did / arrive", "are / arriving", "do / arrive"],
+    "correctAnswer": "did / arrive",
+    "explanation": "We use 'did arrive' because questions starting with 'When' are asking for a specific finished time."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple vs. Present Perfect",
+    "question": "I _____ (know) my best friend for five years. We hang out every day!",
+    "options": ["knew", "have known", "knows", "knowing"],
+    "correctAnswer": "have known",
+    "explanation": "We use 'have known' because the word 'for' shows a duration that started in the past and is still true today."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple vs. Present Perfect",
+    "question": "The train to London _____ (leave) ten minutes ago.",
+    "options": ["has left", "leaves", "left", "is leaving"],
+    "correctAnswer": "left",
+    "explanation": "We use 'left' because the word 'ago' is always used with the Past Simple to show a finished time."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple vs. Present Perfect",
+    "question": "We _____ (not / play) tennis this week because of the rain.",
+    "options": ["didn't play", "haven't played", "aren't playing", "don't play"],
+    "correctAnswer": "haven't played",
+    "explanation": "We use 'haven't played' because 'this week' is an unfinished time period; the week isn't over yet!"
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple vs. Present Perfect",
+    "question": "I _____ (never / be) to Australia, but I want to go someday.",
+    "options": ["never went", "have never been", "was never", "am never"],
+    "correctAnswer": "have never been",
+    "explanation": "We use 'have never been' because 'never' describes your life experience from birth up to now."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple vs. Present Perfect",
+    "question": "He _____ (work) at the bakery for two years, but then he quit to become a teacher.",
+    "options": ["has worked", "worked", "works", "is working"],
+    "correctAnswer": "worked",
+    "explanation": "We use 'worked' (Past Simple) even though it says 'for two years', because the action is completely finished (he quit)."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple vs. Present Perfect",
+    "question": "I _____ (just / finish) reading an amazing book! Do you want to borrow it?",
+    "options": ["just finished", "have just finished", "am just finishing", "just finish"],
+    "correctAnswer": "have just finished",
+    "explanation": "We use 'have just finished' because 'just' indicates an action completed a very short time ago."
+  }
+]

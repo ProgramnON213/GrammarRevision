@@ -1,0 +1,162 @@
+[
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Movement",
+    "question": "The dog ran _____ the street to chase a squirrel.",
+    "options": ["across", "in", "on", "at"],
+    "correctAnswer": "across",
+    "explanation": "We use 'across' when moving from one side of a surface to the other."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Movement",
+    "question": "The train traveled dark _____ the long tunnel.",
+    "options": ["over", "through", "onto", "above"],
+    "correctAnswer": "through",
+    "explanation": "We use 'through' when moving inside something from one end to the other, like a tunnel or a forest."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Movement",
+    "question": "It was so hot that we jumped right _____ the swimming pool.",
+    "options": ["into", "onto", "over", "along"],
+    "correctAnswer": "into",
+    "explanation": "We use 'into' to show movement from the outside to the inside of something."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Movement",
+    "question": "Please walk _____ the beach and look for seashells.",
+    "options": ["through", "into", "along", "out of"],
+    "correctAnswer": "along",
+    "explanation": "We use 'along' when moving in a line next to something long, like a beach, road, or river."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Movement",
+    "question": "The cat easily jumped _____ the high fence.",
+    "options": ["over", "under", "through", "in"],
+    "correctAnswer": "over",
+    "explanation": "We use 'over' when moving above and across something to get to the other side."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Movement",
+    "question": "Every morning, I walk _____ school with my friends.",
+    "options": ["to", "at", "in", "on"],
+    "correctAnswer": "to",
+    "explanation": "We use 'to' to show the destination or endpoint of a movement."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Movement",
+    "question": "She carefully climbed _____ the roof to fix the shingles.",
+    "options": ["onto", "into", "through", "under"],
+    "correctAnswer": "onto",
+    "explanation": "We use 'onto' to show movement moving to a position on a flat surface."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Movement",
+    "question": "We drove _____ the city, but we still have a few miles to go.",
+    "options": ["towards", "in", "on", "at"],
+    "correctAnswer": "towards",
+    "explanation": "We use 'towards' to show movement in the direction of something, even if you haven't arrived yet."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Movement",
+    "question": "I waved at him as I drove _____ his house.",
+    "options": ["past", "through", "into", "onto"],
+    "correctAnswer": "past",
+    "explanation": "We use 'past' when moving by or beyond something without stopping."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Movement",
+    "question": "Take your shoes off before you step _____ the house.",
+    "options": ["into", "onto", "over", "along"],
+    "correctAnswer": "into",
+    "explanation": "We use 'into' when entering an enclosed space."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Movement",
+    "question": "The hikers walked _____ the steep hill to reach the summit.",
+    "options": ["up", "down", "through", "into"],
+    "correctAnswer": "up",
+    "explanation": "We use 'up' to indicate movement from a lower point to a higher point."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Movement",
+    "question": "During the snowstorm, we happily slid _____ the hill on our sleds.",
+    "options": ["down", "up", "onto", "into"],
+    "correctAnswer": "down",
+    "explanation": "We use 'down' to indicate movement from a higher point to a lower point."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Movement",
+    "question": "The magician pulled a rabbit _____ his hat.",
+    "options": ["out of", "into", "onto", "through"],
+    "correctAnswer": "out of",
+    "explanation": "We use 'out of' to show movement from the inside to the outside."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Movement",
+    "question": "The earth revolves _____ the sun.",
+    "options": ["around", "across", "through", "past"],
+    "correctAnswer": "around",
+    "explanation": "We use 'around' to indicate movement in a circle or curved path."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Movement",
+    "question": "He threw the basketball perfectly _____ the hoop.",
+    "options": ["through", "over", "under", "along"],
+    "correctAnswer": "through",
+    "explanation": "We use 'through' because the ball enters one side of the hoop and exits the other."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Movement",
+    "question": "Be careful not to fall _____ your bicycle!",
+    "options": ["off", "out of", "down", "away"],
+    "correctAnswer": "off",
+    "explanation": "We use 'off' to describe moving away and down from a surface you were on."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Movement",
+    "question": "The scared mouse ran _____ from the cat.",
+    "options": ["away", "towards", "into", "onto"],
+    "correctAnswer": "away",
+    "explanation": "We use 'away (from)' to describe moving in the opposite direction of something to create distance."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Movement",
+    "question": "The ship sailed safely _____ the Atlantic Ocean.",
+    "options": ["across", "through", "into", "under"],
+    "correctAnswer": "across",
+    "explanation": "We use 'across' when navigating from one side of a large expanse (like an ocean) to the other."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Movement",
+    "question": "The passengers finally stepped _____ the airplane after a long flight.",
+    "options": ["off", "out", "away", "over"],
+    "correctAnswer": "off",
+    "explanation": "We use 'off' when leaving a large public vehicle like a plane, bus, or train."
+  },
+  {
+    "category": "Prepositions",
+    "subcategory": "Prepositions of Movement",
+    "question": "We followed the trail _____ the thick forest.",
+    "options": ["through", "over", "onto", "along"],
+    "correctAnswer": "through",
+    "explanation": "We use 'through' because the forest surrounds you as you move from one side to the other."
+  }
+]

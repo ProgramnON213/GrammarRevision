@@ -1,0 +1,162 @@
+[
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple",
+    "question": "My brother always _____ (wake) up at 7 AM.",
+    "options": ["wakes", "wake", "is waking", "waked"],
+    "correctAnswer": "wakes",
+    "explanation": "We use 'wakes' because 'My brother' is a singular subject (he), and we add an 's' to the verb for regular habits."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple",
+    "question": "We usually _____ (play) video games on Saturdays.",
+    "options": ["plays", "play", "are playing", "played"],
+    "correctAnswer": "play",
+    "explanation": "We use 'play' because the subject 'We' is plural, so the verb does not take an 's' for routines."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple",
+    "question": "Water _____ (boil) at 100 degrees Celsius.",
+    "options": ["boil", "boils", "is boiling", "boiled"],
+    "correctAnswer": "boils",
+    "explanation": "We use 'boils' because this is a scientific fact, and 'Water' is an uncountable, singular subject."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple",
+    "question": "_____ you _____ (like) chocolate ice cream?",
+    "options": ["Do / like", "Does / like", "Are / like", "Is / like"],
+    "correctAnswer": "Do / like",
+    "explanation": "For questions with the subject 'you' in the Present Simple, we always start with the helper verb 'Do'."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple",
+    "question": "She _____ (not/eat) meat because she is a vegetarian.",
+    "options": ["don't eat", "doesn't eat", "isn't eating", "not eat"],
+    "correctAnswer": "doesn't eat",
+    "explanation": "For negative sentences with a singular subject (she), we use 'doesn't' (does not) before the base verb."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple",
+    "question": "The train to London _____ (leave) at 8:30 PM.",
+    "options": ["leave", "leaves", "is leaving", "left"],
+    "correctAnswer": "leaves",
+    "explanation": "We use 'leaves' for scheduled events like a train timetable. 'The train' is a singular subject (it)."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple",
+    "question": "How often _____ your father _____ (go) to the gym?",
+    "options": ["do / go", "does / goes", "does / go", "is / going"],
+    "correctAnswer": "does / go",
+    "explanation": "In a question with a singular subject ('your father'), we use the helper verb 'does' and keep the main verb ('go') in its base form."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple",
+    "question": "Cats _____ (catch) mice.",
+    "options": ["catches", "catch", "catching", "caught"],
+    "correctAnswer": "catch",
+    "explanation": "Since 'Cats' is a plural subject, the verb 'catch' stays in its base form to state a general fact."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple",
+    "question": "I _____ (think) this math problem is very difficult.",
+    "options": ["thinks", "am thinking", "think", "thinking"],
+    "correctAnswer": "think",
+    "explanation": "'Think' is an opinion or state of mind, so we use the Present Simple. The subject 'I' uses the base form of the verb."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple",
+    "question": "He never _____ (forget) his homework.",
+    "options": ["forgets", "forget", "is forgetting", "forgot"],
+    "correctAnswer": "forgets",
+    "explanation": "Words like 'never' show a habit. Because the subject is 'He' (singular), we add an 's' to the verb."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple",
+    "question": "_____ it _____ (rain) a lot in your city?",
+    "options": ["Do / rain", "Does / rain", "Is / rain", "Does / rains"],
+    "correctAnswer": "Does / rain",
+    "explanation": "For a yes/no question with the subject 'it', we use 'Does'. The main verb 'rain' stays in its base form."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple",
+    "question": "My grandparents _____ (live) in a small village.",
+    "options": ["lives", "live", "are living", "lived"],
+    "correctAnswer": "live",
+    "explanation": "'My grandparents' is a plural subject (they), so the verb 'live' does not take an 's' for a permanent situation."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple",
+    "question": "The Earth _____ (go) around the Sun.",
+    "options": ["go", "goes", "is going", "going"],
+    "correctAnswer": "goes",
+    "explanation": "This is a universal fact. Since 'The Earth' is a singular subject, we add 'es' to verbs ending in 'o'."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple",
+    "question": "What time _____ the library _____ (close)?",
+    "options": ["do / close", "does / close", "is / close", "does / closes"],
+    "correctAnswer": "does / close",
+    "explanation": "For questions about a singular subject like 'the library', we use 'does' as the helper verb and 'close' as the base verb."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple",
+    "question": "They _____ (not/speak) French very well.",
+    "options": ["doesn't speak", "don't speak", "aren't speaking", "not speak"],
+    "correctAnswer": "don't speak",
+    "explanation": "For negative sentences with a plural subject (They), we use 'don't' (do not) before the base verb."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple",
+    "question": "Sarah _____ (brush) her teeth twice a day.",
+    "options": ["brush", "brushs", "brushes", "is brushing"],
+    "correctAnswer": "brushes",
+    "explanation": "For singular subjects (Sarah) doing a routine, we add 'es' to verbs ending in 'sh', 'ch', 's', or 'x'."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple",
+    "question": "_____ your friends _____ (watch) movies on weekends?",
+    "options": ["Does / watch", "Do / watch", "Are / watch", "Do / watches"],
+    "correctAnswer": "Do / watch",
+    "explanation": "'Your friends' is a plural subject (they), so we start the question with 'Do' and keep 'watch' in its base form."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple",
+    "question": "I always _____ (do) my chores before dinner.",
+    "options": ["does", "do", "doing", "am doing"],
+    "correctAnswer": "do",
+    "explanation": "Even though 'always' indicates a routine, the subject 'I' uses the base form 'do', not 'does'."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple",
+    "question": "The museum _____ (not/open) on Mondays.",
+    "options": ["don't open", "doesn't open", "isn't opening", "not opens"],
+    "correctAnswer": "doesn't open",
+    "explanation": "'The museum' is a singular subject (it), so we use 'doesn't' to make the negative form for schedules."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple",
+    "question": "Birds _____ (fly) south for the winter.",
+    "options": ["flies", "fly", "is flying", "flying"],
+    "correctAnswer": "fly",
+    "explanation": "This is a fact about nature. 'Birds' is plural (they), so the verb 'fly' stays in its base form."
+  }
+]
