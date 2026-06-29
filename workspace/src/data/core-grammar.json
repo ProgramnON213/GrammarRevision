@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "We _____ (play) soccer at the park yesterday.",
+    "options": ["play", "played", "playing", "plays"],
+    "correctAnswer": "played",
+    "explanation": "For regular verbs in the Past Simple, we add '-ed' to the end of the base verb."
+  },
+  {
+    "category": "Tenses",
+    "subcategory": "Present Simple",
+    "question": "She _____ to school by bus every morning.",
+    "options": ["go", "goes", "going", "went"],
+    "correctAnswer": "goes",
+    "explanation": "In the Present Simple, third-person singular subjects usually take a verb ending in '-s' or '-es'."
+  },
+  {
+    "category": "Articles",
+    "subcategory": "A / An / The",
+    "question": "I saw _____ elephant at the zoo.",
+    "options": ["a", "an", "the", "no article"],
+    "correctAnswer": "an",
+    "explanation": "Use 'an' before singular countable nouns that begin with a vowel sound."
+  }
+]

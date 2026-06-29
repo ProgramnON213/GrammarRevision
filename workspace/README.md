@@ -1,57 +1,73 @@
-# React + TypeScript + Vite
+# Grammar Workbook
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A grammar practice website built with React, TypeScript, Vite, Tailwind, and Zustand.
+It loads question banks from JSON files under `src/data`.
 
-Currently, two official plugins are available:
+## Local Development
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Data Source
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Add one or more `.json` files under `src/data/`
+- Each file can contain an array of objects like:
 
-export default tseslint.config({
-  extends: [
-    // other configs...
-    // Enable lint rules for React
-    reactX.configs['recommended-typescript'],
-    // Enable lint rules for React DOM
-    reactDom.configs.recommended,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```json
+[
+  {
+    "category": "Tenses",
+    "subcategory": "Past Simple",
+    "question": "We _____ (play) soccer at the park yesterday.",
+    "options": ["play", "played", "playing", "plays"],
+    "correctAnswer": "played",
+    "explanation": "For regular verbs in the Past Simple, we add '-ed' to the end of the base verb."
+  }
+]
+```
+
+## GitHub Pages
+
+This repo is configured for GitHub Pages deployment through GitHub Actions.
+
+### 1. Create a GitHub repository
+
+Create a new repository on GitHub, then connect this project to it:
+
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/<your-username>/<your-repo>.git
+git push -u origin main
+```
+
+### 2. Enable GitHub Pages
+
+- Open your repository on GitHub
+- Go to `Settings` → `Pages`
+- Under `Build and deployment`, set `Source` to `GitHub Actions`
+
+### 3. Deploy
+
+Every push to `main` triggers the workflow in `.github/workflows/deploy.yml` and publishes the site.
+
+Your site URL will be:
+
+```text
+https://<your-username>.github.io/<your-repo>/
+```
+
+Because the app uses `HashRouter`, in-app routes will work correctly on GitHub Pages.
+
+## Validation
+
+```bash
+npm run check
+npm run lint
+npm run test
+npm run build
 ```
