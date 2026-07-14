@@ -1,9 +1,8 @@
 import { useMemo, useState } from "react";
-import { ChevronRight, Folder, FolderOpen } from "lucide-react";
+import { BookOpen, ChevronRight, Folder, FolderOpen } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useGrammarStore } from "@/stores/useGrammarStore";
 import Card from "@/components/ui/Card";
-import Pill from "@/components/ui/Pill";
 import { groupByCategory } from "@/utils/grammarBank";
 
 export default function LibraryCatalog() {
@@ -45,13 +44,9 @@ export default function LibraryCatalog() {
     <Card className="p-4">
       <div className="flex items-center justify-between gap-3">
         <div>
-          <div className="font-[Fraunces] text-lg font-semibold">Library</div>
-          <div className="text-sm text-[color:var(--muted)]">{bank.length} questions loaded</div>
+          <div className="font-[Fraunces] text-lg font-bold text-[color:var(--ink)]">Library</div>
+          <div className="text-xs text-[color:var(--muted)]">{bank.length} questions loaded</div>
         </div>
-        <Pill className="hidden md:inline-flex">
-          <span className="h-2 w-2 rounded-full bg-[color:var(--accent)]" />
-          JSON
-        </Pill>
       </div>
 
       <div className="mt-4">
@@ -74,59 +69,80 @@ export default function LibraryCatalog() {
             setSelectedSubcategory(null);
           }}
           className={cn(
-            "mb-3 flex w-full items-center justify-between rounded-xl px-3 py-2 text-sm font-medium transition",
+            "mb-4 flex w-full items-center justify-between rounded-xl px-4 py-3 text-sm font-semibold transition border shadow-xs",
             selectedCategory === null
-              ? "bg-[color:var(--ink)] text-[color:var(--paper)]"
-              : "hover:bg-black/5 dark:hover:bg-white/10"
+              ? "bg-[color:var(--ink)] border-transparent text-[color:var(--paper)]"
+              : "bg-white/45 dark:bg-white/5 border-[color:var(--border)] text-[color:var(--ink)] hover:bg-black/5 dark:hover:bg-white/10"
           )}
         >
-          <span>All questions</span>
-          <span className="text-xs opacity-80">{bank.length}</span>
+          <span className="flex items-center gap-2">
+            <BookOpen size={16} />
+            All topics
+          </span>
+          <span className={cn(
+            "rounded-full px-2 py-0.5 text-xs font-semibold",
+            selectedCategory === null ? "bg-white/20 text-white" : "bg-black/5 text-[color:var(--muted)] dark:bg-white/5"
+          )}>
+            {bank.length}
+          </span>
         </button>
 
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-3">
           {categories.map((cat) => {
             const isOpen = openCats[cat.category] ?? true;
             const isActiveCat = selectedCategory === cat.category;
 
             return (
-              <div key={cat.category} className="rounded-xl ring-1 ring-[color:var(--border)]">
+              <div
+                key={cat.category}
+                className={cn(
+                  "rounded-2xl transition-all border border-[color:var(--border)] overflow-hidden bg-white/20 dark:bg-white/5",
+                  isActiveCat && !selectedSubcategory ? "ring-2 ring-[color:var(--accent)] border-transparent" : ""
+                )}
+              >
                 <div
                   className={cn(
-                    "flex items-center justify-between gap-2 rounded-xl px-3 py-2 text-left text-sm font-medium transition",
-                    isActiveCat ? "bg-black/5 dark:bg-white/10" : "hover:bg-black/5 dark:hover:bg-white/10"
+                    "flex items-center justify-between gap-2 px-3.5 py-2.5 text-left text-sm font-medium transition-colors duration-150",
+                    isActiveCat ? "bg-black/5 dark:bg-white/10" : ""
                   )}
                 >
                   <button
                     type="button"
-                    className="flex flex-1 items-center gap-2 rounded-lg py-1 text-left"
+                    className="flex flex-1 items-center gap-2.5 py-1 text-left select-none text-[color:var(--ink)]"
                     onClick={() => {
                       setSelectedCategory(cat.category);
+                      setSelectedSubcategory(null);
                       setOpenCats((p) => ({ ...p, [cat.category]: true }));
                     }}
                   >
-                    {isActiveCat ? <FolderOpen size={16} /> : <Folder size={16} />}
-                    <span className="truncate">{cat.category}</span>
+                    {isActiveCat ? (
+                      <FolderOpen size={16} className="text-[color:var(--accent)] shrink-0" />
+                    ) : (
+                      <Folder size={16} className="text-[color:var(--muted)] shrink-0" />
+                    )}
+                    <span className="truncate font-semibold tracking-tight">{cat.category}</span>
                   </button>
 
-                  <div className="flex items-center gap-2">
-                    <span className="text-xs text-[color:var(--muted)]">{cat.count}</span>
+                  <div className="flex items-center gap-2 shrink-0">
+                    <span className="text-xs font-semibold text-[color:var(--muted)] bg-black/5 px-2 py-0.5 rounded-full dark:bg-white/5">
+                      {cat.count}
+                    </span>
                     <button
                       type="button"
                       aria-label={isOpen ? "Collapse category" : "Expand category"}
                       className={cn(
-                        "rounded-lg p-1 transition hover:bg-black/5 dark:hover:bg-white/10",
+                        "rounded-lg p-1.5 transition text-[color:var(--muted)] hover:bg-black/5 dark:hover:bg-white/10",
                         isOpen && "rotate-90"
                       )}
                       onClick={() => setOpenCats((p) => ({ ...p, [cat.category]: !isOpen }))}
                     >
-                      <ChevronRight size={16} />
+                      <ChevronRight size={14} />
                     </button>
                   </div>
                 </div>
 
                 {isOpen && (
-                  <div className="px-2 pb-2">
+                  <div className="px-3 pb-3 pt-1 border-t border-[color:var(--border)] bg-black/[0.01] dark:bg-white/[0.01]">
                     {cat.subs.map((sub) => {
                       const active = isActiveCat && selectedSubcategory === sub.subcategory;
                       return (
@@ -134,16 +150,21 @@ export default function LibraryCatalog() {
                           key={sub.subcategory}
                           type="button"
                           className={cn(
-                            "mt-1 flex w-full items-center justify-between rounded-lg px-3 py-2 text-sm transition",
-                            active ? "bg-[color:var(--ink)] text-[color:var(--paper)]" : "hover:bg-black/5 dark:hover:bg-white/10"
+                            "mt-1.5 flex w-full items-center justify-between rounded-xl px-3 py-2.5 text-xs font-semibold transition-all border",
+                            active
+                              ? "bg-[color:var(--accent)] border-transparent text-white shadow-sm"
+                              : "bg-white/40 dark:bg-white/5 border-[color:var(--border)] text-[color:var(--ink)] hover:bg-black/5 dark:hover:bg-white/10"
                           )}
                           onClick={() => {
                             setSelectedCategory(cat.category);
                             setSelectedSubcategory(sub.subcategory);
                           }}
                         >
-                          <span className="truncate">{sub.subcategory}</span>
-                          <span className={cn("text-xs", active ? "opacity-90" : "text-[color:var(--muted)]")}>
+                          <span className="truncate pr-2">{sub.subcategory}</span>
+                          <span className={cn(
+                            "rounded-full px-1.5 py-0.5 text-[10px] font-bold shrink-0",
+                            active ? "bg-white/20 text-white" : "bg-black/5 text-[color:var(--muted)] dark:bg-white/5"
+                          )}>
                             {sub.count}
                           </span>
                         </button>
