@@ -1,9 +1,12 @@
 import type { ParseIssue, ParsedQuestion, Question } from "@/types/grammar";
 
-const bundledQuestionModules = import.meta.glob("../data/**/*.json", {
-  eager: true,
-  import: "default",
-}) as Record<string, unknown>;
+const bundledQuestionModules = import.meta.glob(
+  ["../data/**/*.json", "../../../exercise/**/*.json"],
+  {
+    eager: true,
+    import: "default",
+  }
+) as Record<string, unknown>;
 
 function isNonEmptyString(v: unknown): v is string {
   return typeof v === "string" && v.trim().length > 0;
