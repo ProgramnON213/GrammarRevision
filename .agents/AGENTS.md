@@ -39,3 +39,46 @@ All commands should be executed from the `workspace/` directory:
     }
   ]
   ```
+
+## Boundaries
+- **No Secrets**: Never commit `.env` files or hardcode API keys/secrets.
+- **Dependency Control**: Do not add npm packages unless absolutely necessary. Check bundle size impact first.
+- **Project Structure**: Do not create top-level directories outside `workspace/` and `exercise/`. Keep code changes isolated to the Vite app workspace.
+- **Verification**: Always run `npm run test` and `npm run check` in the `workspace/` directory before finalizing changes to ensure there are no TypeScript or Vitest failures.
+
+## Patterns
+### Zustand Store Usage in Components
+Always use selective selector functions to avoid unnecessary re-renders:
+```tsx
+import { useGrammarStore } from "@/stores/useGrammarStore";
+
+export function ExampleComponent() {
+  const bank = useGrammarStore((s) => s.bank);
+  const startSession = useGrammarStore((s) => s.startSession);
+  // ...
+}
+```
+
+### Conditional ClassNames Pattern
+Always use `cn` from `@/lib/utils` for merging Tailwind CSS classes:
+```tsx
+import { cn } from "@/lib/utils";
+
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  variant?: "primary" | "secondary";
+}
+
+export function Button({ className, variant = "primary", ...props }: ButtonProps) {
+  return (
+    <button
+      className={cn(
+        "px-4 py-2 rounded-xl transition-all duration-200",
+        variant === "primary" ? "bg-[color:var(--accent)] text-white" : "bg-transparent text-[color:var(--ink)]",
+        className
+      )}
+      {...props}
+    />
+  );
+}
+```
+
