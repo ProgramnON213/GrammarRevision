@@ -74,7 +74,9 @@ export default function Practice() {
           <div className="space-y-1">
             <div className="font-[Fraunces] text-lg font-semibold">Practice</div>
             <div className="text-sm text-[color:var(--muted)]">
-              {current.question.category} / {current.question.subcategory}
+              {session.config.subcategory !== null || !!answered
+                ? `${current.question.category} / ${current.question.subcategory}`
+                : current.question.category}
             </div>
           </div>
 
