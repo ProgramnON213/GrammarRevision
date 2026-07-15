@@ -8,6 +8,11 @@ export default defineConfig({
   build: {
     sourcemap: 'hidden',
   },
+  server: {
+    fs: {
+      allow: ['.', '../exercise'],
+    },
+  },
   plugins: [
     react({
       babel: {
